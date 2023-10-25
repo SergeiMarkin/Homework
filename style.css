@@ -1,14 +1,15 @@
 body{
-    background-image: url("/imgs/bgc.png");
+    background-image: url("/imgs/bgc.png");       
     background-size: contain;
     background-position: center;
     width: 1920px;
 }
 header{
+    background-image: url(/imgs/main-screen__bgc.png);
+    height: 960px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+    align-items: baseline;
+    justify-content: space-between;    
 }
 header img {
     width: 40px;
