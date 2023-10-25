@@ -16,3 +16,7 @@ header ul{
     list-style: none;
     gap: 50px;
 }
+header ul li a{
+    color:#FFFF;
+    text-decoration: none;
+}
