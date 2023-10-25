@@ -2,11 +2,18 @@ body{
     background-image: url("/imgs/bgc.png");
     background-size: contain;
     background-position: center;
+    width: 1920px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 header img {
     width: 40px;
     height: 40px;
-    margin: 40px 0 auto 80px ;   
+    margin: 40px 80px;   
 }
 header ul{
     display: flex;
@@ -23,9 +30,9 @@ header ul li a{
 header button{
     background-image: linear-gradient(to right,#C89AFC ,#7C6AFA);
     color: #FFFF;
-    width: 183px;
+    width: 180px;
     height: 44px;
-    margin: 38px auto auto 1657px;
+    margin: 38px;
     padding: 10px, 30px, 10px, 30px;
     border-radius: 50px;
     gap: 10px;
