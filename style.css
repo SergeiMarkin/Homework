@@ -13,4 +13,6 @@ header ul{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    list-style: none;
+    gap: 50px;
 }
