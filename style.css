@@ -20,3 +20,14 @@ header ul li a{
     color:#FFFF;
     text-decoration: none;
 }
+header button{
+    background-image: linear-gradient(to right,#C89AFC ,#7C6AFA);
+    color: #FFFF;
+    width: 183px;
+    height: 44px;
+    margin: 38px auto auto 1657px;
+    padding: 10px, 30px, 10px, 30px;
+    border-radius: 50px;
+    gap: 10px;
+    border: none;    
+}
