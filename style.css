@@ -4,6 +4,7 @@ body{
     background-position: center;
     width: 1920px;
 }
+
 header{
     background-image: url(/imgs/main-screen__bgc.png);
     height: 960px;
@@ -11,11 +12,13 @@ header{
     align-items: baseline;
     justify-content: space-between;    
 }
+
 header img {
     width: 40px;
     height: 40px;
     margin: 40px 80px;   
 }
+
 header ul{
     display: flex;
     justify-content: space-between;
@@ -24,10 +27,12 @@ header ul{
     list-style: none;
     gap: 50px;
 }
+
 header ul li a{
     color:#FFFF;
     text-decoration: none;
 }
+
 header button{
     background-image: linear-gradient(to right,#C89AFC ,#7C6AFA);
     color: #FFFF;
